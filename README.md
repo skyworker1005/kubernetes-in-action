@@ -19,7 +19,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 1.3.4 쿠버네티스에서 애플리케이션 실행하기
 1.3.5 쿠버네티스의 이점 이해하기
 1.4 요약
-
+---
 ## 2장. 도커와 쿠버네티스의 첫걸음
 ### 2.1 컨테이너 이미지의 생성, 실행, 공유
 2.1.1 도커를 설치하고 Hello World 컨테이너 실행하기
@@ -247,7 +247,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 10.5.1 네트워크에서 노드 연결 해제 시뮬레이션
 10.5.2 수동으로 포드 삭제
 10.6 요약
-
+---
 # 3부 BEYOND THE BASICS
 ## 11장. 쿠버네티스 내부 이해하기
 ### 11.1 아키텍처 이해하기
