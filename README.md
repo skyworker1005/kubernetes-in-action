@@ -428,3 +428,6 @@ This repository contains all the code (and some additional files) from my [Kuber
 부록 B kubeadm을 이용한 다중 노드 클러스터 설정
 부록 C 다른 컨테이너 런타임 사용하기
 부록 D 클러스터 페더레이션
+
+## Reference 
+ > http://acornpub.co.kr/book/k8s-in-action#toc
