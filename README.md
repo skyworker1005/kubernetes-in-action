@@ -2,8 +2,8 @@
 
 This repository contains all the code (and some additional files) from my [Kubernetes in Action](https://k8s.si/book) book.
 
-1부 OVERVIEW
-1장. 쿠버네티스 소개
+# 1부 OVERVIEW
+## 1장. 쿠버네티스 소개
 1.1 쿠버네티스 시스템의 필요성 이해
 1.1.1 모놀리식 애플리케이션에서 마이크로서비스로 전환하기
 1.1.2 애플리케이션에 일관된 환경 제공
@@ -20,7 +20,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 1.3.5 쿠버네티스의 이점 이해하기
 1.4 요약
 
-2장. 도커와 쿠버네티스의 첫걸음
+## 2장. 도커와 쿠버네티스의 첫걸음
 2.1 컨테이너 이미지의 생성, 실행, 공유
 2.1.1 도커를 설치하고 Hello World 컨테이너 실행하기
 2.1.2 간단한 Node.js 앱 만들기
@@ -42,9 +42,9 @@ This repository contains all the code (and some additional files) from my [Kuber
 2.3.6 쿠버네티스 대시보드 소개
 2.4 요약
 
-2부 CORE CONCEPTS
+# 2부 CORE CONCEPTS
 
-3장. 포드: 쿠버네티스에서 컨테이너 실행하기
+## 3장. 포드: 쿠버네티스에서 컨테이너 실행하기
 3.1 포드 소개
 3.1.2 포드의 필요성 이해하기
 3.1.2 포드 이해하기
@@ -83,7 +83,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 3.8.5 네임스페이스의 (거의)모든 리소스 삭제하기
 3.9 요약
 
-4장. 리플리케이션 및 기타 컨트롤러: 관리되는 포드 배포
+## 4장. 리플리케이션 및 기타 컨트롤러: 관리되는 포드 배포
 4.1 포드를 안정적으로 유지하기
 4.1.1 liveness probe 소개
 4.1.2 HTTP 기반의 liveness probe생성
@@ -118,7 +118,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 4.6.2 스케줄된 잡의 실행 방법 이해
 4.7 요약
 
-5장. 서비스: 클라이언트가 포드를 검색하고 대화를 가능하게 함
+## 5장. 서비스: 클라이언트가 포드를 검색하고 대화를 가능하게 함
 5.1 서비스 소개하기
 5.1.1 서비스 생성하기
 5.1.2 서비스 검색하기
@@ -146,7 +146,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 5.7 서비스 문제 해결하기
 5.8 요약
 
-6장. 볼륨: 컨테이너에 디스크 스토리지 연결
+## 6장. 볼륨: 컨테이너에 디스크 스토리지 연결
 6.1 볼륨 소개
 6.1.1 예제에서 볼륨 설명
 6.1.2 가능한 볼륨 유형 소개
@@ -171,7 +171,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 6.6.3 스토리지 클래스를 지정하지 않고 동적 프로비저닝하기
 6.7 요약
 
-7장. ConfigMaps와 Secret: 애플리케이션 설정
+## 7장. ConfigMaps와 Secret: 애플리케이션 설정
 7.1 컨테이너화된 애플리케이션 설정
 7.2 컨테이너에 명령행 인자 전달
 7.2.1 도커에서 명령과 인자 정의하기
@@ -197,7 +197,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 7.5.6 image pull Secrets 이해하기
 7.6 요약
 
-8장. 애플리케이션에서 포드 메타데이터와 그 외의 리소스에 접근하기
+## 8장. 애플리케이션에서 포드 메타데이터와 그 외의 리소스에 접근하기
 8.1 Downward API를 통한 메타데이터 전달하기
 8.1.1 사용 가능한 메타데이터 이해하기
 8.1.2 환경 변수를 통한 메타데이터 노출하기
@@ -209,7 +209,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 8.2.4 클라이언트 라이브러리를 사용해 API 서버와 통신
 8.3 요약
 
-9장. 디플로이먼트: 애플리케이션을 선언적으로 업데이트하기
+## 9장. 디플로이먼트: 애플리케이션을 선언적으로 업데이트하기
 9.1 포드에서 실행 중인 애플리케이션 업데이트하기
 9.1.1 오래된 포드를 삭제하고 새로운 포드로 교체하기
 9.1.2 새로운 포드의 스핀 업 및 오래된 포드 삭제하기
@@ -226,7 +226,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 9.3.6 잘못된 버전의 롤아웃 방지
 9.4 요약
 
-10장. 스테이트풀셋: 복제된 스테이트풀 애플리케이션 배포하기
+## 10장. 스테이트풀셋: 복제된 스테이트풀 애플리케이션 배포하기
 10.1 스테이트풀 포드 복제
 10.1.1 각각 분리된 저장소를 갖는 다수의 복제본 실행하기
 10.1.2 각 포드에 안정적인 ID 제공
@@ -248,8 +248,8 @@ This repository contains all the code (and some additional files) from my [Kuber
 10.5.2 수동으로 포드 삭제
 10.6 요약
 
-3부 BEYOND THE BASICS
-11장. 쿠버네티스 내부 이해하기
+# 3부 BEYOND THE BASICS
+## 11장. 쿠버네티스 내부 이해하기
 11.1 아키텍처 이해하기
 11.1.1 쿠버네티스 컴포넌트의 분산 특성(nature)
 11.1.2 쿠버네티스가 etcd 사용하는 방법
@@ -278,7 +278,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 11.6.2 쿠버네티스 컨트롤 플레인 컴포넌트의 가용성 높이기
 11.7 요약
 
-12장. 쿠버네티스 API 서버 보안
+## 12장. 쿠버네티스 API 서버 보안
 12.1 인증 이해하기
 12.1.1 사용자와 그룹
 12.1.2 서비스어카운트 소개
@@ -293,7 +293,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 12.2.6 인증 권한을 현명하기 부여하기
 12.3 요약
 
-13장. 클러스터 노드와 네트워크의 보안
+## 13장. 클러스터 노드와 네트워크의 보안
 13.1 포드 내에서 호스트 노드의 네임스페이스 사용하기
 13.1.1 포드에서 노드의 네트워크 네임스페이스 사용하기
 13.1.2 호스트 네임스페이스를 사용하지 않고 호스트 포트에 바인딩
@@ -320,7 +320,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 13.4.5 포드 세트의 아웃 바운드 트래픽 제한하기
 13.5 요약
 
-14장. 포드의 계산 리소스 관리
+## 14장. 포드의 계산 리소스 관리
 14.1 포드 컨테이너의 리소스 요청
 14.1.1 리소스 요청을 포함한 포드 만들기
 14.1.2 리소스 요청이 스케줄링에 미치는 영향 이해
@@ -348,7 +348,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 14.6.2 리소스 사용 통계의 히스토리 저장 및 분석
 14.7 요약
 
-15장. 포드와 클러스터 노드의 오토스케일링
+## 15장. 포드와 클러스터 노드의 오토스케일링
 15.1 포드의 수평적 오토 스케일링
 15.1.1 오토스케일링 프로세스 이해하기
 15.1.2 CPU 사용률에 따른 스케일링
@@ -365,7 +365,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 15.3.3 클러스터 스케일다운 시 서비스 중단 제한하기
 15.4 요약
 
-16장. 고급 스케줄링
+## 16장. 고급 스케줄링
 16.1 테인트와 톨러레이션을 사용해 특정 노드에서 포드 실행 제한하기
 16.1.1 테인트와 톨러레이션 소개
 16.1.2 노드에 사용자 정의 테인트 추가하기
@@ -381,7 +381,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 16.3.4 포드 반친밀성으로 포드를 서로 멀리해 스케줄링하기
 16.4 요약
 
-17장. 애플리케이션 개발을 위한 베스트 프렉티스
+## 17장. 애플리케이션 개발을 위한 베스트 프렉티스
 17.1 모든 것을 함께 가져오기
 17.2 포드의 라이프사이클 이해하기
 17.2.1 애플리케이션은 종료하고 재배치 해야 한다
@@ -407,7 +407,7 @@ This repository contains all the code (and some additional files) from my [Kuber
 17.5.5 CI(Continuous Integration) 및 CD(Continuous Delivery) 사용하기
 17.6 요약
 
-18장. 쿠버네티스 확장하기
+## 18장. 쿠버네티스 확장하기
 18.1 사용자 지정 API 객체 정의하기
 18.1.1 CustomResourceDefinitions 소개
 18.1.2 사용자 지정 컨트롤러를 사용한 사용자 지정 리소스 자동화하기
